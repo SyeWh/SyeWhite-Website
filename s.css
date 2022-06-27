@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgb(66, 0, 151, 0.75)),
+    url(5.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.navbar {
+  color: white;
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  cursor: pointer;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline;
+  margin: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul a:hover {
+  color: rgb(153, 0, 255);
+  transition: 0.5s;
+}
+
+.navbar span{
+  color:rgb(117, 0, 196);
+}
+
+.content {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  margin-left: 80px;
+}
+
+.content h1 {
+  font-size: 70px;
+  margin: 80px 0px 0px 20px;
+  cursor: default;
+}
+.main {
+  width: 100%;
+}
+
+.content p {
+  margin: 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.content button {
+    margin: 5px;
+  padding: 15px 0px;
+  background-color: rgba(18, 0, 36, 0);
+  border-radius: 25px;
+  border: 1px rgb(153, 0, 255) solid;
+  width: 25%;
+  cursor: pointer;
+  position: relative;
+  color: white;
+}
+
+.content button:hover {
+  background-color: rgb(75, 0, 173);
+  transition: 0.3s;
+}
+
+img {
+  max-width: 500px;
+  width: 50%;
+  float: right;
+  margin: 80px;
+  border-radius: 50px;
+}
+.cards{
+  box-shadow: #2600ff;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card{
+  width: 200px;
+  padding: 40px 15px;
+  background: linear-gradient(45deg,#2600ff,#c93ace);
+  border-radius: 12px;
+  color: rgb(237, 229, 252);
+}
+
+.card h3{
+  font-size: 80px;
+  opacity: 50%;
+}
+
+.card h2{
+  margin: 15px;
+}
+
+.card p{
+  line-height: 23px;
+}
+
+.s1{
+  padding:100px;
+  background-image: linear-gradient(rgba(34, 41, 105, 0.75), rgb(0, 0, 0, 0.75)),url(coffee-polaroids-mug-standing-bunch-132589452.jpg);
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.quote{
+  background-color:rgb(29, 15, 63);
+  height:250px;
+  font-size: 30px;  
+  text-align: left;
+  padding: 80px 150px;
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+}
+
+.quote h2{
+  margin-top: 60px;
+  text-align: right;
+  transform: translateY(100%);
+  font-weight: 600;
+}
+
+.s2{
+  background-image: linear-gradient(rgba(34, 41, 105, 0.75), rgb(0, 0, 0, 0.75)),url(coffee-polaroids-mug-standing-bunch-132589452.jpg);
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 200px;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s2 .container{
+  display: flex;
+  justify-content: space-between;
+  padding:50px 100px;
+  background: linear-gradient(45deg,#23003b, #1e00c7);
+  border-radius: 15px;
+  width: 60%;
+  color: white;
+}
+
+.s2 button{
+  margin: 5px;
+  padding: 15px 0px;
+  background-color: rgba(18, 0, 36, 0);
+  box-shadow: #23003b;
+  border-radius: 25px;
+  border: 1px #0d007e solid;
+  width: 100px;
+  cursor: pointer;
+  color: white;
+}
+
+.s2 button:hover{
+  background-color: #0d007e;
+  transition: 0.3s;
+}
+
+.ctr h2{
+  font-size: 30px;
+  font-weight: 1000;
+  margin-bottom: 5px;
+}
+
+.ctr p{
+  font-weight: 200;
+}
+
+footer{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(29, 15, 63);
+  color: white;
+  font-weight: 200;
+}
